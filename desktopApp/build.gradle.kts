@@ -14,6 +14,15 @@ dependencies {
     implementation(libs.kotlinx.coroutinesSwing)
 
     implementation(libs.compose.uiToolingPreview)
+    implementation(libs.nucleus.core)
+    implementation(libs.nucleus.application)
+    implementation(libs.nucleus.darkmode)
+    implementation(libs.nucleus.systemColor)
+    implementation(libs.nucleus.aot)
+    implementation(libs.nucleus.decoratedWindow.tao)
+    implementation(libs.nucleus.decoratedWindow.awt)
+    implementation(libs.nucleus.menuMacos)
+    implementation(libs.nucleus.sfSymbols)
 }
 
 nucleus.application {
